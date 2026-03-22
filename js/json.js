@@ -58,10 +58,17 @@ function showTopFlavors(jsonObj) {
         let image = document.createElement('img');//<img src ="choclate-mint.svg"
         let ul = document.createElement('ul');
         
+         let pType = document.createElement('p');
+         let pCalories = document.createElement('p');
 
+         let ul = document.createElement('ul');
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         h2.textContent=topFlavors[i]['name'];
         image.setAttribute('src','./images/' + topFlavors[i].image);
+
+        //Adding types and calories
+        pType.textContent = 'Type: ' + topFlavors[i].type;
+        pCalories.textContent = 'Calories: ' + topFlavors[i].calories;
 
         // STEP 10g: Build a loop for the ingredients array in the JSON
         let ingredients = topFlavors[i]['ingredients'];
