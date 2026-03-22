@@ -25,7 +25,31 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+      "name": "Cosmic Strawberry",
+      "calories": 450,
+      "type": "gelato",
+      "ingredients": [
+        "strawberry", 
+        "chocolate swirl",
+        "caramel swirl", 
+        "whole milk"
+      ],
+      "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "Midnight Berry",
+      "calories": 280,
+      "type": "frozen yogurt",
+      "ingredients": [
+        "blackberry", 
+        "wild blueberry", 
+        "greek yogurt"
+      ],
+      "image": "ice-cream-xtra1.svg"
     }
+    
     
      
   ]
